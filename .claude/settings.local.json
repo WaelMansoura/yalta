@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from model.board import Board; b=Board\\(\\); print\\('valid:',len\\(b.VALID_SQUARES\\)\\); print\\('white:',len\\(b.get_pieces\\('white'\\)\\)\\); print\\('red:',len\\(b.get_pieces\\('red'\\)\\)\\); print\\('black:',len\\(b.get_pieces\\('black'\\)\\)\\); print\\('check white:',b.is_king_in_check\\('white'\\)\\); print\\('clone:',len\\(b.clone\\(\\).squares\\)\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
